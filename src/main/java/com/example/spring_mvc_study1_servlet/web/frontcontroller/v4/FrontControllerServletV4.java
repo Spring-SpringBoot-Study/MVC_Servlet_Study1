@@ -34,7 +34,7 @@ public class FrontControllerServletV4 extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("FrontControllerServletV3.service");
+        System.out.println("FrontControllerServletV4.service");
 
         String requestURI = request.getRequestURI(); // localhost8080 뒤의 URL을 받음 예시 -> /front-controller/v2/members/new-form
 
